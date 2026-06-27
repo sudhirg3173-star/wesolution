@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Enterprise AI &amp; Cloud Solutions</title>
+<!-- Favicon -->
+<link href="images/favicon.png" rel="icon" type="image/png"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Navbar -->
+<header class="fixed top-0 left-0 w-full z-50 transition-all duration-300" id="navbar">
+<div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+<!-- LOGO + TEXT -->
+<div class="logo-wrapper">
+<a href="index.html">
+<img alt="WeSolutions Logo" height="48" src="images/WeSolution-logo-small.png" width="48"/>
+</a>
+<h1 class="text-3xl font-extrabold text-white nav-text">
+          We<span class="text-cyan-300">Solutions</span>
+</h1>
+</div>
+<!-- NAVIGATION -->
+<nav class="hidden md:flex gap-8 text-white font-medium nav-links">
+<a class="hover:text-cyan-300 transition" href="#services">Services</a>
+<a class="hover:text-cyan-300 transition" href="#solutions">Solutions</a>
+<a class="hover:text-cyan-300 transition" href="#case-studies">Case Studies</a>
+<a class="hover:text-cyan-300 transition" href="#about">About</a>
+<a class="hover:text-cyan-300 transition" href="#contact">Contact</a>
+</nav>
+<!-- BUTTON -->
+<button class="bg-cyan-400 text-black font-semibold px-5 py-3 rounded-full hover:scale-105 transition">
+<a href="#contact">Get Started</a>
+</button>
+</div>
+</header>
+<!-- HERO -->
+<section class="hero-gradient min-h-screen flex items-center relative overflow-hidden">
+<div class="absolute inset-0 opacity-20">
+<div class="absolute w-96 h-96 bg-cyan-300 rounded-full blur-3xl top-10 left-10"></div>
+<div class="absolute w-96 h-96 bg-blue-900 rounded-full blur-3xl bottom-0 right-0"></div>
+</div>
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center relative z-10 pt-20">
+<!-- LEFT CONTENT -->
+<div data-aos="fade-right">
+<p class="uppercase tracking-[4px] text-cyan-300 font-semibold mb-5">
+          AI • Cloud • Data • Automation
+        </p>
+<h1 class="text-5xl md:text-7xl leading-tight font-extrabold text-white mb-6">
+          Transform Your Business With Intelligent Digital Solutions
+        </h1>
+<p class="text-blue-100 text-lg leading-8 mb-10 max-w-xl">
+          Build scalable enterprise ecosystems with AI-powered automation,
+          cloud modernization, data engineering, and next-generation digital experiences.
+        </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-cyan-400 text-black px-8 py-4 rounded-full font-bold hover:scale-105 transition">
+<a href="#services">Explore Services</a>
+</button>
+<button class="glass text-white px-8 py-4 rounded-full font-semibold hover:bg-white/20 transition">
+<a href="#contact">Book Consultation</a>
+</button>
+</div>
+</div>
+<!-- HERO IMAGE SLIDER -->
+<div class="relative" data-aos="fade-left">
+<div class="glass rounded-3xl p-5 floating">
+<div class="hero-slider">
+<!-- Slide 1 -->
+<div class="slide active">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&amp;w=1400&amp;auto=format&amp;fit=crop">
+</img></div>
+<!-- Slide 2 -->
+<div class="slide">
+<img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+</div>
+<!-- Slide 3 -->
+<div class="slide">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+</div>
+<!-- Dots -->
+<div class="slider-dots">
+<div class="dot active"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-6">
+<div class="counter-box rounded-3xl p-8 text-white text-center" data-aos="zoom-in">
+<h2 class="text-5xl font-extrabold counter" data-target="500">0</h2>
+<p class="mt-4 text-lg">Enterprise Clients</p>
+</div>
+<div class="counter-box rounded-3xl p-8 text-white text-center" data-aos="zoom-in" data-aos-delay="100">
+<h2 class="text-5xl font-extrabold counter" data-target="1200">0</h2>
+<p class="mt-4 text-lg">Projects Delivered</p>
+</div>
+<div class="counter-box rounded-3xl p-8 text-white text-center" data-aos="zoom-in" data-aos-delay="200">
+<h2 class="text-5xl font-extrabold counter" data-target="95">0</h2>
+<p class="mt-4 text-lg">Customer Satisfaction</p>
+</div>
+<div class="counter-box rounded-3xl p-8 text-white text-center" data-aos="zoom-in" data-aos-delay="300">
+<h2 class="text-5xl font-extrabold counter" data-target="24">0</h2>
+<p class="mt-4 text-lg">Global Presence</p>
+</div>
+</div>
+</section>
+<!-- Services -->
+<section class="py-28" id="services">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20" data-aos="fade-up">
+<p class="text-blue-600 font-semibold uppercase tracking-[3px] mb-3">Our Expertise</p>
+<h2 class="text-5xl font-extrabold text-gray-900 mb-5">Enterprise Technology Services</h2>
+<p class="text-gray-600 max-w-3xl mx-auto text-lg leading-8">
+          Accelerate innovation with scalable enterprise-grade digital transformation solutions.
+        </p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="service-card bg-white rounded-3xl p-10 shadow-lg transition duration-500" data-aos="fade-up">
+<div class="text-5xl mb-6">🤖</div>
+<h3 class="text-2xl font-bold mb-4">Artificial Intelligence</h3>
+<p class="text-gray-600 leading-8">
+            AI-driven automation, machine learning, predictive analytics, and enterprise AI integrations.
+          </p>
+</div>
+<div class="service-card bg-white rounded-3xl p-10 shadow-lg transition duration-500" data-aos="fade-up" data-aos-delay="100">
+<div class="text-5xl mb-6">☁️</div>
+<h3 class="text-2xl font-bold mb-4">Cloud Transformation</h3>
+<p class="text-gray-600 leading-8">
+            Cloud migration, hybrid infrastructure, DevOps optimization, and scalable enterprise systems.
+          </p>
+</div>
+<div class="service-card bg-white rounded-3xl p-10 shadow-lg transition duration-500" data-aos="fade-up" data-aos-delay="200">
+<div class="text-5xl mb-6">📊</div>
+<h3 class="text-2xl font-bold mb-4">Data Engineering</h3>
+<p class="text-gray-600 leading-8">
+            Build real-time data pipelines, analytics dashboards, and business intelligence ecosystems.
+          </p>
+</div>
+<div class="service-card bg-white rounded-3xl p-10 shadow-lg transition duration-500" data-aos="fade-up">
+<div class="text-5xl mb-6">🔐</div>
+<h3 class="text-2xl font-bold mb-4">Cybersecurity</h3>
+<p class="text-gray-600 leading-8">
+            Protect enterprise systems with modern cybersecurity architecture and compliance solutions.
+          </p>
+</div>
+<div class="service-card bg-white rounded-3xl p-10 shadow-lg transition duration-500" data-aos="fade-up" data-aos-delay="100">
+<div class="text-5xl mb-6">⚡</div>
+<h3 class="text-2xl font-bold mb-4">Automation</h3>
+<p class="text-gray-600 leading-8">
+            Streamline operations using RPA, workflow automation, and intelligent process optimization.
+          </p>
+</div>
+<div class="service-card bg-white rounded-3xl p-10 shadow-lg transition duration-500" data-aos="fade-up" data-aos-delay="200">
+<div class="text-5xl mb-6">📱</div>
+<h3 class="text-2xl font-bold mb-4">Digital Experience</h3>
+<p class="text-gray-600 leading-8">
+            Build modern customer experiences with responsive apps, portals, and enterprise platforms.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Solutions -->
+<section class="py-28 bg-[#071d49] text-white relative overflow-hidden" id="solutions">
+<div class="absolute top-0 right-0 w-96 h-96 bg-blue-500 blur-3xl opacity-20"></div>
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center relative z-10">
+<div data-aos="fade-right">
+<img class="rounded-3xl shadow-2xl" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+</div>
+<div data-aos="fade-left">
+<p class="text-cyan-300 uppercase tracking-[3px] font-semibold mb-4">Modern Enterprise Solutions</p>
+<h2 class="text-5xl font-extrabold leading-tight mb-8">
+          Build Future-Ready Digital Infrastructure
+        </h2>
+<div class="space-y-6 text-lg leading-8 text-blue-100">
+<p>
+            Accelerate digital transformation with AI-powered business ecosystems, scalable cloud infrastructure, and real-time data intelligence.
+          </p>
+<p>
+            Our enterprise solutions are designed to improve efficiency, optimize workflows, increase agility, and drive measurable business growth.
+          </p>
+</div>
+<div class="mt-10 grid grid-cols-2 gap-6">
+<div class="glass p-6 rounded-2xl">
+<h3 class="font-bold text-2xl mb-2">98%</h3>
+<p>Operational Efficiency</p>
+</div>
+<div class="glass p-6 rounded-2xl">
+<h3 class="font-bold text-2xl mb-2">5X</h3>
+<p>Faster Deployment</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Case Studies -->
+<section class="py-28 bg-white" id="case-studies">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-20" data-aos="fade-up">
+<p class="text-blue-600 uppercase tracking-[3px] font-semibold mb-4">Case Studies</p>
+<h2 class="text-5xl font-extrabold text-gray-900">Success Stories</h2>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="rounded-3xl overflow-hidden shadow-xl bg-white" data-aos="fade-up">
+<img class="h-64 w-full object-cover" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+<div class="p-8">
+<h3 class="text-2xl font-bold mb-4">Retail AI Automation</h3>
+<p class="text-gray-600 leading-8 mb-6">
+              Increased operational efficiency by 62% using intelligent automation workflows.
+            </p>
+<a class="text-blue-600 font-semibold" href="#">Read More →</a>
+</div>
+</div>
+<div class="rounded-3xl overflow-hidden shadow-xl bg-white" data-aos="fade-up" data-aos-delay="100">
+<img class="h-64 w-full object-cover" src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+<div class="p-8">
+<h3 class="text-2xl font-bold mb-4">Cloud Migration</h3>
+<p class="text-gray-600 leading-8 mb-6">
+              Migrated enterprise infrastructure to scalable cloud architecture with zero downtime.
+            </p>
+<a class="text-blue-600 font-semibold" href="#">Read More →</a>
+</div>
+</div>
+<div class="rounded-3xl overflow-hidden shadow-xl bg-white" data-aos="fade-up" data-aos-delay="200">
+<img class="h-64 w-full object-cover" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+<div class="p-8">
+<h3 class="text-2xl font-bold mb-4">Data Intelligence</h3>
+<p class="text-gray-600 leading-8 mb-6">
+              Built a real-time analytics dashboard for enterprise-level business insights.
+            </p>
+<a class="text-blue-600 font-semibold" href="#">Read More →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About -->
+<section class="py-28 bg-slate-100" id="about">
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+<div data-aos="fade-right">
+<h2 class="text-5xl font-extrabold text-gray-900 mb-8">
+          Enterprise Innovation Driven By Technology
+        </h2>
+<p class="text-gray-600 leading-8 text-lg mb-8">
+          We help organizations modernize infrastructure, automate business processes, and create intelligent customer experiences using AI, cloud, and enterprise-grade technologies.
+        </p>
+<ul class="space-y-4 text-lg text-gray-700">
+<li>✔ AI &amp; Data Strategy</li>
+<li>✔ Enterprise Cloud Architecture</li>
+<li>✔ Digital Transformation Consulting</li>
+<li>✔ Cybersecurity &amp; Compliance</li>
+</ul>
+</div>
+<div data-aos="fade-left">
+<img class="rounded-3xl shadow-2xl" src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&amp;w=1400&amp;auto=format&amp;fit=crop"/>
+</div>
+</div>
+</section>
+<!-- Contact -->
+<section class="py-28 bg-[#071d49] text-white" id="contact">
+<div class="max-w-5xl mx-auto px-6 text-center">
+<p class="uppercase tracking-[3px] text-cyan-300 font-semibold mb-4">Contact Us</p>
+<h2 class="text-5xl font-extrabold mb-8">
+        Ready To Transform Your Business?
+      </h2>
+<p class="text-blue-100 text-lg leading-8 max-w-3xl mx-auto mb-12">
+        Let’s build scalable enterprise solutions that drive innovation, efficiency, and measurable growth.
+      </p>
+<form class="grid md:grid-cols-2 gap-6 text-left">
+<input class="p-5 rounded-2xl bg-white text-black outline-none" placeholder="Your Name" type="text"/>
+<input class="p-5 rounded-2xl bg-white text-black outline-none" placeholder="Email Address" type="email"/>
+<input class="p-5 rounded-2xl bg-white text-black outline-none md:col-span-2" placeholder="Company Name" type="text"/>
+<textarea class="p-5 rounded-2xl bg-white text-black outline-none md:col-span-2" placeholder="Tell us about your project" rows="6"></textarea>
+<button class="bg-cyan-400 text-black font-bold px-8 py-5 rounded-2xl hover:scale-105 transition md:col-span-2">
+          Submit Inquiry
+        </button>
+</form>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-black text-gray-400 py-10 text-center">
+<p>© 2026 WeSolutions. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
